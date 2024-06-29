@@ -1,0 +1,37 @@
+.products{
+width: 100%;
+align-content: center;
+
+.prod{
+    display: inline-block;
+    width: calc(100%/3.09);
+    height: 300px;
+    // margin:5px auto;
+    overflow: hidden;
+    background-color: #ccc;
+    @include rounded(30px);
+
+    .img-container{
+        width: 100%;
+        overflow: hidden;
+        height: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .details{
+        padding: 5px;
+        h4{
+            font-size: $fontSize*1.1;
+            margin: 10px;
+        }
+        p{
+            font-size: $fontSize*0.8;
+            margin-top:2px ;
+            
+        }
+    }
+}
+}

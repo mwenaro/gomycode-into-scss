@@ -1,0 +1,34 @@
+header {
+    background-color: $bgColor;
+    color: white;
+    padding: $myPadding;
+  
+    //   site title
+    h1 {
+      color: blue;
+    }
+    // tagline styles
+    p {
+      // padding-left: 30%;
+      text-align: right;
+      font-style: italic;
+    }
+  
+    //   nav
+    nav {
+      padding:5px ;
+      ul {
+        li {
+          display: inline-block;
+  
+          a {
+            display: block;
+            padding: 5px 10px;
+            background-color: lightgray;
+            // border-radius: 5px;
+            @include rounded(5px);
+          }
+        }
+      }
+    }
+  }

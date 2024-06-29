@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+  background-color: white;
+}
+
+.wrapper {
+  width: 90vw;
+  padding: 5px;
+  margin-inline: auto;
+  background-color: #e5e5e5;
+}
+
+/*
+    - variables
+    - operations
+    - nesting
+    - partials
+    - mixins
+
+*/
+header {
+  background-color: teal;
+  color: white;
+  padding: 5px;
+}
+header h1 {
+  color: blue;
+}
+header p {
+  text-align: right;
+  font-style: italic;
+}
+header nav {
+  padding: 5px;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  display: block;
+  padding: 5px 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+main {
+  font-size: 21px;
+  min-height: 400px;
+  width: 100%;
+}
+main section {
+  width: 100%;
+  padding: 5px;
+}
+main section h2 {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+}
+main section.hero {
+  padding: 0;
+}
+main section.hero img {
+  width: 100%;
+}
+main .products {
+  width: 100%;
+  align-content: center;
+}
+main .products .prod {
+  display: inline-block;
+  width: 32.3624595469%;
+  height: 300px;
+  overflow: hidden;
+  background-color: #ccc;
+  border-radius: 30px;
+}
+main .products .prod .img-container {
+  width: 100%;
+  overflow: hidden;
+  height: 50%;
+}
+main .products .prod .img-container img {
+  width: 100%;
+}
+main .products .prod .details {
+  padding: 5px;
+}
+main .products .prod .details h4 {
+  font-size: 17.6px;
+  margin: 10px;
+}
+main .products .prod .details p {
+  font-size: 12.8px;
+  margin-top: 2px;
+}
+
+footer {
+  background-color: teal;
+  padding: 5px;
+}/*# sourceMappingURL=main.css.map */
