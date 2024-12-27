@@ -10,6 +10,10 @@ $myPadding: 5px;
   border-radius: $size;
 }
 
+@mixin bgCol($col){
+  background-color: $col;
+}
+
 html {
   font-size: $fontSize;
   background-color: white;
@@ -51,6 +55,7 @@ main {
 
   //   hero sec
   section.hero {
+ 
     padding: 0;
     img {
       width: 100%;
@@ -63,6 +68,7 @@ main {
 }
 
 footer {
-  background-color: $bgColor;
+  // background-color: $bgColor;
+  @include bgCol(yellow);
   padding: $myPadding;
 }
